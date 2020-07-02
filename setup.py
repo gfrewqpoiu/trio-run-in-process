@@ -59,8 +59,8 @@ setup(
     install_requires=[
         "async-generator>=1.10,<2",
         "cloudpickle>=1.2.1,<2",
-        "trio>=0.12.1,<0.13",
-        "trio-typing>=0.2.0,<0.3.0",
+        "trio>=0.16.0",
+        "trio-typing>=0.5.0",
     ],
     python_requires='>=3.6, <4',
     extras_require=extras_require,
